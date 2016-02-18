@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "main:symbol2go.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "main:Doid2Doid.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "row[1]">
+            </PersistentString>
+            <PersistentString
+               value = "i">
+            </PersistentString>
+            <PersistentString
+               value = "symptom.size()">
+            </PersistentString>
+            <PersistentString
+               value = "row[0]">
+            </PersistentString>
+            <PersistentString
+               value = "disease.size()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Input_data(go&amp;, st_mysql&amp;):go.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "sql">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

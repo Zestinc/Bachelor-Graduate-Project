@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index2</title>
+	<link rel="stylesheet" href="./jstree/dist/themes/default/style.css"/>
+	<script src="./jstree/dist/jquery/jquery-1.11.2.min.js"></script>
+	<script src="./jstree/dist/jstree.min.js"></script>
+	<script src="./function.js"></script>
+
+	<script src="./layer/layer.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="index2.css"/>
+</head>
+<body>
+	<div id="headBack">
+		<div id="logo">
+			<div style="display: table; height: 100%; overflow: hidden;">
+				<div style="display: table-cell; vertical-align: middle;">
+					<div>
+						Gene Ontology
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="header">
+			<!--表单 上传要搜索的本体ID-->
+			<!-- <form action="try.php" method="post" onsubmit = handle()> -->
+			<form onsubmit="handle(mode_change); return false;">
+				<input type="text" class="tx" align="center" id="ee" name="ee"/>
+				<input type="image" class="btn" value=" " align="center" />
+			</form>
+		</div>
+	</div>
+	<!-- <div id="content"> -->
+	<div id="Rcontnet" >
+		<!--初始页面显示作品信息-->
+		<iframe src="welcome.html" frameborder="0" height="100%"></iframe>
+	</div>
+	<div id="Lcontent">
+		<div id="jstree">
+			<script>
+					showvalf();//初始化jstree
+			</script>
+		</div>
+			<script src="jstree.js"></script>
+		</div>	
+		<!-- </div> -->
+		<div id="rearBack">
+		</div>
+	</body>
+	</html>

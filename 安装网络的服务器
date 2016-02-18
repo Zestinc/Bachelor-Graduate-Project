@@ -1,0 +1,4 @@
+1. 安装网络的服务器 (推荐使用MAMP）
+2. 将htdocs的所有内容拷到服务器里面
+3. 打开mysql，将数据库导入脚本导入到数据库中
+4. 将htdocs里面的 try.php 和 SearchHandle.php 里面的 mysql_connect('localhost:8888','root','root'); 语句改成当前计算机所安装的端口，用户名，密码

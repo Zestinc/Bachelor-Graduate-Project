@@ -1,0 +1,87 @@
+#logo{
+	display: inline-block;
+	width: 16%;
+	height:100%;
+
+	text-align: left;
+	color: #FFFFFF;
+	vertical-align: middle;
+	font-size:30px;
+	font-family: "sans-serif";
+}
+#header
+{
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+	margin-bottom: 3px;
+	padding:0px;
+}
+html,body{
+	margin:0;	
+	height: 100%;
+	width: 100%;
+}
+#content{
+	height:81%;
+	width: 100%;
+	overflow: auto;
+}
+#headBack{
+	background-image: url(./img/background.jpg);
+	height: 6%;
+	width: 100%;
+	margin: 0 auto;
+}
+#rearBack{
+	background-image: url(./img/background.jpg);
+	background-size: 100% 100%;
+	height: 13%;
+	margin: 0 auto;
+}
+#Rcontnet
+{
+	float: right; 
+	width: 51%;
+	height: 79%;
+	margin: 0 auto; 
+	text-align: left;
+	background: #FFFFFF; 
+	overflow: auto;
+	padding:10px 30px;
+}
+#Lcontent
+{
+	margin-right:10px auto; 
+	width:40%; 
+	background: #FFFFFF; 
+	overflow: auto;
+	height: 79%;
+	padding:10px 30px;
+}
+
+.btn {
+	border: 0px;
+	padding: 0px;
+	color: #FFFFFF;
+	width: 9%;
+	height: 20px;
+	background: url(./img/button2.jpg);
+}
+
+.tx {
+	width: 88%;
+	height: 14px;	
+}
+
+input,button{ 
+	vertical-align:middle;
+} 
+
+#jstree	
+{
+	height:100%;
+	margin-right: 10px;
+	overflow: auto;
+	white-space:nowrap;
+}

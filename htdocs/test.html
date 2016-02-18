@@ -1,0 +1,51 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script language="javascript">
+		function myFun()
+		{
+			var rs = "a,b,c,d";
+			var rsArr = new Array();
+			rsArr = rs.split(",");
+			for (i=1;i<=rsArr.length;i++)
+			{
+				document.getElementById("txt_"+i).innerHTML = rsArr[i-1];
+			}
+		}
+	</script>
+</head>
+<body>
+	<input type="button" value="试验" onclick="myFun();">
+	<p id="txt_1"></p>
+	<p id="txt_2"></p>
+	<p id="txt_3"></p>
+	<p id="txt_4"></p>
+</body>
+</html>
+
+<!-- <html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script language="javascript">
+		function myFun()
+		{
+			var rs = "a,b,c,d";
+			var rsArr = new Array();
+			rsArr = rs.split(",");
+			document.getElementById("txt_"+1).innerHTML = rsArr[0];
+			document.getElementById("txt_"+2).innerHTML = rsArr[1];
+			document.getElementById("txt_"+3).innerHTML = rsArr[2];
+			document.getElementById("txt_"+4).innerHTML = rsArr[3];
+		}
+	</script>
+</head>
+<body>
+	<input type="button" value="试验" onclick="myFun();">
+	<p id="txt_1"></p>
+	<p id="txt_2"></p>
+	<p id="txt_3"></p>
+	<p id="txt_4"></p>
+</body>
+</html> -->

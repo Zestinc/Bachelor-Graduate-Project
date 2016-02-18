@@ -1,0 +1,26 @@
+文件：
+function.js 		包含index2.html（搜索页面）中大部分的js功能函数
+index.css			index.html的布局文件
+index.html 			主页的内容
+index2.css 			index2.html的布局文件
+index2.html 		搜索内容页面的主要内容 
+jstree.js 			jstree的生成函数、单击事件相应函数 	
+layer.js 			超链接弹出框的js功能实现函数
+RelaGO.php 			本体内关联Term 及 本体间关联Term 及 相似疾病的搜索 的大部分函数 及 一些常用的处理函数
+SearchHandle.php 	本体内关联Term 及 本体间关联Term 及 相似疾病的搜索 的主要处理程序(jstree生成)
+try.php				获得Term的相关内容，并调用和Term内容相关内容查询的函数（在SearchHandle.php 和 RelaGo.php 中)
+welcome.html 		显示的欢迎页面
+
+文件夹：
+img 				网页中用到的图片资源
+jstree 				jstree的源文件
+layer 				弹出框的源文件
+
+其他（名词解释）：
+jstree：网页中常用到的树状列表
+
+
+数据流向：
+index.html ---> index2.html ---> function.js ---> try.php(RelaGo.php) ---> RelaGo.php ---> index2.html
+											 ---> SearchHandle.php(RelaGo.php) ---> index2.html
+		                   

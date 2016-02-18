@@ -1,0 +1,48 @@
+html{
+	background-image: url("./img/background.jpg");
+	background-repeat:no-repeat;
+	height: 100%;
+	background-size:100% 100%;
+	-webkit-background-origin:content-box; /* Safari */
+	background-origin:content-box;
+}
+body {
+	height: 100%;
+	width: 100%;
+}
+
+#logo {
+	float: left;
+	margin-left: 15%;
+	margin-top: 2%;
+	width: 24%;
+	background-image: url("./img/logo.gif");
+	height: 100%;
+	background-repeat:no-repeat;
+}
+
+#text {
+	height: 0%;
+	width: 100%;
+	font-size: 80px;
+	color: #FFFFFF;
+	padding-top: 19%;
+	padding-left: 40.5%;
+	font-family: "sans-serif";
+}
+
+#search {
+	padding-top:5.5%;
+	padding-left: 41%;
+	width: 100%;
+}
+
+#cc {
+	width: 42.5%;
+	height: 20px;
+}
+
+.btn {
+	height: 30px;
+	font-size:22px;
+}
